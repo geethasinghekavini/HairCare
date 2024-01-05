@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+.root {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(Images/background2.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  background-color: transparent;
+  opacity: 1;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  height: 48px;
+  margin-left: 20px;
+
+}
+
+.header-nav {
+  display: flex;
+
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header-nav-item {
+  margin-right: 70px;
+}
+
+.header-nav-link {
+  font-size: large;
+  color: #7b512e;
+  text-decoration: none;
+}
+
+.header-title {
+  color: #7b512e;
+  margin: 0;
+  font-size: 85.1PX;
+  font-family: The Seasons;
+}
+
+.head-text2{
+  color: #7b512e;
+  
+}
+
+.header-login-button {
+  background-color: #7b512e;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-right: 20px;
+  
+}
+
+
+.header-login-button:hover {
+  background-color: #aa7142;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.right-cont{
+  position: relative;
+  top: -100px;
+  left: 300px;
+  
+}
+
+.home-image{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+
