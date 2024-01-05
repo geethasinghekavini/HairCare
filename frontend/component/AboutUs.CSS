@@ -1,0 +1,132 @@
+.about-student:hover {
+  background-color: #7b512e;
+  color: white;
+  
+}
+
+.about-student:hover img {
+  transform: scale(1.1);
+}
+
+.about-student:hover h2, .about-student:hover p {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.student-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.student-details:hover {
+  background-color: darkred;
+  color: white;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+ .about-card {
+  width: 50%;
+  max-width: 600px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about-card:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #f00;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.about-image {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.about-image:hover {
+  transform: scale(1.1);
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.about-info p {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover .about-info h2,
+.about-card:hover .about-info p {
+  transform: translate(0, -10px);
+}
+
+/* .student:hover {
+  background-color: red;
+  color: white;
+  width: 220px;
+  height: 280px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  padding: 20px;
+} */
