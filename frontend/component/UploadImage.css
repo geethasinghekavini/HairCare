@@ -1,0 +1,81 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffff;
+
+  }
+  
+  .card-header {
+    background-color: #ffff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+  }
+
+  .card-body p{
+    font-weight: bold;
+    color: #7b512e;
+    }
+    
+    
+  .upload-image-button {
+    display: block;
+    align-self: center;
+    margin-top: 100px;
+    }
+    
+
+  input[type="file"] {
+    display: none;
+  }
+
+  .card-body img{
+    max-width: 400px;
+    max-height: 250px;
+   }
+
+  .upload-image{
+    opacity: 20%;
+    position: fixed;
+    margin-left: -15px;
+    margin-top: -25px;
+  }
+
+  .predict-button {
+    display: block;
+    margin: 100px auto 0;
+  }
+  
+  .prediction-text{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2rem;
+  }
+  .details-button{
+    margin: 2px auto 0;
+  }
+
+  .View-disease-details-button{
+    display: block;
+    margin: 200px;
+  }
+
+
+  
+  
